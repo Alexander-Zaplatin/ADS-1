@@ -13,7 +13,7 @@ if (arr[mid] < value) l = mid + 1;
 else
 r = mid - 1;
 }
-if (arr[s+1] == value) {
+if (arr[s] == value) {
 while (arr[s] == value) {
 s++;
 e++;
