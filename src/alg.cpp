@@ -9,14 +9,13 @@ int mid;
 while (l <= r) {
 mid = (l + r) / 2;
 if (arr[mid] == value) s = mid;
-if (value <= arr[mid]) r = mid - 1;
-if (value > arr[mid]) l = mid + 1;
+if (arr[mid] < value) l = mid + 1;
+else
+r = mid - 1;
 }
-if (arr[s] == value) {
+if (arr[s+1] == value) {
 while (arr[s] == value) {
 s++;
 e++;
-}
-}
   return 0; // если ничего не найдено
 }
