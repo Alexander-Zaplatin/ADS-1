@@ -13,7 +13,7 @@ if (arr[mid] == value) e = mid;
 if (arr[mid] > value) r = mid - 1;
 else {
 l = mid + 1;
-}
+ }
 }
 e1 = e;
 while (arr[e1] == value) {
@@ -25,6 +25,5 @@ while (arr[e1] == value) {
 ++m;
 --e1;
 }
-std::cout << m;
   return 0; // если ничего не найдено
 }
