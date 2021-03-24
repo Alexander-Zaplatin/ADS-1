@@ -17,5 +17,7 @@ if (arr[s+1] == value) {
 while (arr[s] == value) {
 s++;
 e++;
+}
+}
   return 0; // если ничего не найдено
 }
