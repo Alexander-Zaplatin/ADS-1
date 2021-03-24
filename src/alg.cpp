@@ -14,9 +14,11 @@ else
 l = mid + 1;
 }
 }
+if (arr[s] == value) {
 while (arr[s] == value) {
 m++;
 s++;
+}
 }
   return 0; // если ничего не найдено
 }
