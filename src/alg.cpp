@@ -24,7 +24,7 @@ m++;
 e1++;
 }
 if (m)
-return m
+return m;
 else
   return 0; // если ничего не найдено
 }
