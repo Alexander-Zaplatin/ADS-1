@@ -20,8 +20,8 @@ while (arr[e1] == value) {
 }
 e1 = e-1;
 while (arr[e1] == value) {
-++m;
---e1;
+m++;
+e1++;
 }
   return 0; // если ничего не найдено
 }
