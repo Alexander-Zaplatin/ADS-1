@@ -2,7 +2,7 @@
 
 int cbinsearch(int *arr, int size, int value) {
 int r = size -1;
-int l;
+int l = 0;
 int s = -1;
 int e = 0;
 int mid;
